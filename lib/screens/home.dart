@@ -9,7 +9,7 @@ import '../screens/shortcut_button.dart';
 import '../widgets/tile.dart';
 
 class ExampleAlarmHomeScreen extends StatefulWidget {
-  const ExampleAlarmHomeScreen({Key? key}) : super(key: key);
+  const ExampleAlarmHomeScreen({super.key});
 
   @override
   State<ExampleAlarmHomeScreen> createState() => _ExampleAlarmHomeScreenState();

@@ -6,11 +6,11 @@ class ExampleAlarmTile extends StatelessWidget {
   final void Function()? onDismissed;
 
   const ExampleAlarmTile({
-    Key? key,
+    super.key,
     required this.title,
     required this.onPressed,
     this.onDismissed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

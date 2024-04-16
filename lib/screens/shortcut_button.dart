@@ -5,8 +5,8 @@ import 'package:alarm/model/alarm_settings.dart';
 class ExampleAlarmHomeShortcutButton extends StatefulWidget {
   final void Function() refreshAlarms;
 
-  const ExampleAlarmHomeShortcutButton({Key? key, required this.refreshAlarms})
-      : super(key: key);
+  const ExampleAlarmHomeShortcutButton(
+      {super.key, required this.refreshAlarms});
 
   @override
   State<ExampleAlarmHomeShortcutButton> createState() =>

@@ -5,8 +5,7 @@ import 'package:alarm/model/alarm_settings.dart';
 class ExampleAlarmRingScreen extends StatelessWidget {
   final AlarmSettings alarmSettings;
 
-  const ExampleAlarmRingScreen({Key? key, required this.alarmSettings})
-      : super(key: key);
+  const ExampleAlarmRingScreen({super.key, required this.alarmSettings});
 
   @override
   Widget build(BuildContext context) {
